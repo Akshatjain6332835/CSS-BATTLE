@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    padding-right:10px;
+    align-items: center;
+}
+.main{
+        width:100%;
+        height: 100%;
+        background: linear-gradient(to top,rgba(138, 226, 37, 0.5)50%,rgba(16, 129, 69, 0.677)50%),url(backg.jpg);
+        background-position: center;
+        background-size: cover;
+        height:110vh;
+    }
+
+    .navbar{
+        width: 1200px;
+        height: 75px;
+        margin: auto;
+        
+        
+    }
+  
+.menu{
+        width: 400px;
+        float: left;
+        height: 70px;
+        padding-left: auto;
+        
+    }
+
+    ul{
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: right;
+        padding: 20px;
+    }
+
+    ul a{
+        align-items: center;
+        display:flex;
+        padding: 50px;
+        float:left;
+        font-weight: 1000;
+        font-size: 40px;
+        text-decoration:underline;
+        color:white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .ul.a.se{
+          color:rgb(209, 71, 94);
+    }
+
+    ul a:hover{
+        color: rgb(251, 163, 0);
+    }
+
+    h1{
+        color:rgba(213, 99, 118, 0.734);
+        align-items: center;
+    }
+
+     .dta1,.dta2, .dta3,.dta4{
+        background-color: lightgreen;
+        box-sizing: 200px;
+        padding-bottom:20px;
+        padding-top: 10px;
+        padding-right: 30px;
+        padding-left: 20px;
+        padding-block: 30px;
+        align-items: center;
+    }
+    .mesdta{
+        size: 100px;
+         padding-block: 200px;
+         padding-right: 270px;
+        align-items: center; 
+         padding-bottom:20px;
+    }
+
+    .btn{
+        width:100px;
+        height: 40px;
+        background: white;
+        background-color: rgb(231, 138, 16);
+        margin-top: 13px;
+        color:white;
+        font-size: 10px;
+        border-bottom-right-radius: 5px;
+        align-items: center;
+        
+    }
+    .cnt{
+        width: 250px;
+        height: 380px;
+        background: linear-gradient(to top,rgb(193, 251, 183)50%,rgba(59, 235, 10, 0.985)50%);
+        position:absolute;
+        top: 200px;
+        left: 980px; 
+        border-radius: 10px;
+        padding:25px ;
+    }
+    .follow{
+        width: 250px;
+        height: 380px;
+        top: 500px;
+        position:absolute;
+        left: 980px; 
+        border-radius: 10px;
+        padding:25px ;
+    }
+    .img{
+        width:5%;
+        height: 5%;
+        background: linear-gradient(to top,rgba(249, 249, 248, 0.955)50%,rgba(240, 244, 242, 0.977)50%),url(ins.jpeg);
+        background: linear-gradient(to top,rgba(249, 249, 248, 0.955)50%,rgba(240, 244, 242, 0.977)50%),url(tt.jpeg);
+        background: linear-gradient(to top,rgba(249, 249, 248, 0.955)50%,rgba(240, 244, 242, 0.977)50%),url(fb.png);
+        position:absolute;
+        left: 980px; 
+        border-radius: 10px;
+        padding:25px ;
+        background-position: center;
+        background-size: cover;
+        height:110vh;
+
+    }
+    ul a:hover{
+        color: orange;
+    }
